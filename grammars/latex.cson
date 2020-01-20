@@ -970,7 +970,7 @@
     ]
   }
   {
-    'begin': '(?:\\s*)(((\\\\)begin)(\\{)(minted)(\\})(?:(\\[).*(\\]))?(\\{)(julia|jl)(\\})(\\s*%.*\\n?)?)'
+    'begin': '(?:\\s*)(((\\\\)begin)(\\{)(minted)(\\})(?:(\\[).*(\\]))?(\\{)(julia|jl|julia1|jlcon1)(\\})(\\s*%.*\\n?)?)'
     'captures':
       '1':
         'name': 'meta.function.embedded.latex'
